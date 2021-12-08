@@ -24,10 +24,10 @@ from ast import literal_eval
 
 
 # Access keys and codes you need from your Twitter Developer Account
-consumer_key = '3yWVRdPvvUwSlUiVT7nQPvpjJ'
-consumer_secret = 'ot2jRWkMSmpTlC9a0oz6oIuw00IpEWAZTuCNtRYqviOcxOsOQC'
-access_token = '430156574-lSwq3rIl70lyvGOcW1Onlif4jOmGYbujZ74fQx3g'
-access_token_secret = 'jR5bFD5GyDr8Uof8TRdszAn4NPpZJ8fZxPSddbUx5VvAa'
+consumer_key = '**********************************'
+consumer_secret = '*****************************************'
+access_token = '***********-**********************************'
+access_token_secret = '***************************************'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret) # Pass in Consumer key and secret for authentication by API
 auth.set_access_token(access_token, access_token_secret) # Pass in Access key and secret for authentication by API
@@ -165,7 +165,7 @@ tweets_df['location_to_dict'] = tweets_df['location_to_string'].apply(try_litera
 
 
 URL = "https://geocode.search.hereapi.com/v1/geocode"  # Deevloper Here API link
-api_key = 'o9Ga7EuC_pj9eViLzurCh5wel1PkhPhGm2gmfTl2imA'  # Acquire api key from developer.here.com
+api_key = '*******************************************'  # Acquire api key from developer.here.com
 
 
 #Run this code once to get get the geographic location of all values in location_data
